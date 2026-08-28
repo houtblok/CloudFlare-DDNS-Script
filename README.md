@@ -4,7 +4,9 @@
 
 The script is a Dynamic DNS updater for CloudFlare. It makes sure that your provided DNS records always point to your current public IPv4 address.
 
-The script is designed to be simple to use, you only need to provide the following:
+I made this solution because I found existing solutions to be too much of a hassle to set up (requiring manual lookup of hidden Record ID and Zone ID through the API) or requiring many dependencies.
+
+This script is designed to be simple to use, you only need to provide the following:
 ```
 - CloudFlare API Token (with DNS -> Edit permissions)
 - Your domain name(s)
